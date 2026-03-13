@@ -1,0 +1,142 @@
+* {margin: 0;}
+body{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(espacoooooo.jpg);
+    color: aliceblue;
+}
+table{
+    width: 95%;
+    height: 95vh;
+}
+td{
+    width: 5%;
+    height: 5vh;
+    align-items: center;
+}
+.elemento{
+    border: solid black;
+}
+.nm{
+    background-color: rgb(163, 236, 169);
+}
+.ma{
+    background-color: rgb(233, 196, 155);
+}
+.mat{
+    background-color: rgb(231, 233, 150);
+}
+.mt{
+    background-color: rgb(224, 194, 222);
+}
+.s{
+    background-color: rgb(141, 206, 187);
+}
+.om{
+    background-color: rgb(233, 175, 193);
+}
+.h{
+    background-color: rgb(157, 223, 228);
+}
+.gn{
+    background-color: rgb(142, 166, 233);
+}
+.l{
+    background-color: rgb(201, 231, 235);
+}
+.a{
+    background-color: rgb(221, 189, 241);
+}
+.verde{
+    background-color: rgb(163, 236, 169);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px);
+}
+.laranja{
+    background-color: rgb(233, 196, 155);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.azulturquesa{
+    background-color:  rgb(141, 206, 187);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.cinza{
+    background-color:  rgb(233, 175, 193);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.azulclaro{
+    background-color:  rgb(157, 223, 228);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.azulescuro{
+    background-color:  rgb(142, 166, 233);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.amarelo{
+    background-color:  rgb(231, 233, 150);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.azulbebe{
+    background-color:  rgb(157, 223, 228);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.rosaclaro{
+    background-color:  rgb(224, 194, 222);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.lilas{
+    background-color:  rgb(221, 189, 241);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translateX(120px);
+    transform: translateY(-20px); 
+}
+.elemento {
+    transition: all 0.3 ease;
+    position: relative;
+    z-index: 1;
+}
+
+
+.teste:hover {
+    transform: scale(1.05);
+}
